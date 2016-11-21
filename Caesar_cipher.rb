@@ -2,11 +2,22 @@ require 'sinatra'
 require 'sinatra/reloader'
 
 get '/' do
-	def caesar(str, shift)
+	string = params['string']
+	number = params['number'].to_i
+	result = caesar(string, number)
+	erb :index, :locals => {:result => result,
+							:string => string,
+							:number => number}
+end
+
+def caesar(str, shift)
+	if str == nil
+		return
+	else	
 		str_split = str.split("").map do |letter|
 			ordinal = letter.ord - shift
 			ordinal.chr
 		end
-		puts str_split.join
+		str_split.join
 	end
 end

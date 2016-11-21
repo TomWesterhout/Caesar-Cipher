@@ -1,0 +1,188 @@
+@media only screen and (min-width: 320px) {
+	body {
+		background-image: url(laurel_mob.png);
+		background-size: cover;		
+		background-repeat: no-repeat;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	body {
+		background-image: url(laurel_mob.png);
+		background-size: cover;		
+		background-repeat: no-repeat;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		background-image: url(laurel_mob.png);
+		background-size: cover;		
+		background-repeat: no-repeat;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	body {
+		background-image: url(1280.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media only screen and (min-width: 1366px) {
+	body {
+		background-image: url(1920.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		font-family: roboto;
+		font-size: 1vw;
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+		}
+
+	header {
+		display: flex;
+		justify-content: center;
+	}
+
+	h1 {
+		font-size: 6vw;
+		margin-top: 5%;
+	}
+
+	main {		
+		display: flex;
+		flex: 1;
+		margin: auto;
+		margin-top: 4%;
+		flex-direction: column;
+		width: 35%;
+		padding: 1%;
+	}
+
+	form {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+		font-weight: bold;	
+	}
+
+	input[type=text] {
+		width: 90%;
+		margin: 2% 0 8% 0;
+		border: 1px solid #bbb;
+		border-radius: 3px;
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+		line-height: 5;
+		font-size: 1vw;
+		font-weight: 300;
+	}
+
+	input[type=text]:hover {
+		box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
+	}
+
+	input[type=number] {
+		width: 10%;
+		margin: 2% 0 6% 0;
+		border: 1px solid #bbb;
+		border-radius: 3px;
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+		line-height: 3;
+		font-size: 1vw;
+		font-weight: 300;
+	}
+
+	input[type=number]:hover {
+		box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
+	}
+
+	input[type=submit] {
+		width: 30%;
+		margin: 2% 0;
+		font-size: 1.3em;
+		border: 1px solid #bbb;
+		border-radius: 3px;
+		background-color: #fff;
+	}
+
+	input[type=submit]:hover {
+		box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
+	}
+
+	main p {
+		align-self: center;
+		padding: 4% 0;
+		font-size: 1vw;
+		font-weight: 300;
+	}
+
+	footer {
+		display: flex;
+		justify-content: center;
+		padding-bottom: 1%;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #000;
+		font-weight: bold;
+	}
+}
+
+@media only screen and (min-width: 1600px) {
+	body {
+		background-image: url(1600.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	body {
+		background-image: url(1920.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		font-family: roboto;
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+		font-size: 1vw;
+	}
+
+	h1 {
+		font-size: 6vw;
+		margin-top: 5%;
+	}
+
+	main {
+		width: 35%;
+		padding: 1.5%;
+	}
+
+	form {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+	}
+
+	input[type=text], input[type=number] {
+		width: 80%;
+		margin: 2% 0;
+		border: 1px solid #ccc;
+		border-radius: 5%;
+	}
+
+	input[type=submit] {
+
+	}
+
+	a {
+		text-decoration: none;
+	}
+}
