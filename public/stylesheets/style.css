@@ -24,9 +24,9 @@
 	main {		
 		display: flex;
 		flex: 1;
+		flex-direction: column;
 		margin: auto;
 		margin-top: 4%;
-		flex-direction: column;
 		width: 65%;
 		padding: 1%;
 	}
@@ -92,6 +92,14 @@
 		padding: 4% 0;
 		font-size: 4vw;
 		font-weight: 300;
+	}
+
+	.result {
+		display: flex;
+		justify-content: center;
+		align-self: center;
+		margin: 2% 0;
+		width: 65%;
 	}
 
 	footer {
@@ -138,9 +146,9 @@
 	main {		
 		display: flex;
 		flex: 1;
+		flex-direction: column;
 		margin: auto;
 		margin-top: 4%;
-		flex-direction: column;
 		width: 65%;
 		padding: 1%;
 	}
@@ -208,6 +216,14 @@
 		font-weight: 300;
 	}
 
+	.result {
+		display: flex;
+		justify-content: center;
+		align-self: center;
+		margin: 2% 0;
+		width: 65%;
+	}
+
 	footer {
 		display: flex;
 		justify-content: center;
@@ -223,8 +239,7 @@
 	a:hover {
 		color: #000;
 		font-weight: bold;
-	}
-}
+	}}
 
 @media only screen and (min-width: 768px) {
 	body {
@@ -252,9 +267,9 @@
 	main {		
 		display: flex;
 		flex: 1;
+		flex-direction: column;
 		margin: auto;
 		margin-top: 4%;
-		flex-direction: column;
 		width: 65%;
 		padding: 1%;
 	}
@@ -320,6 +335,14 @@
 		padding: 4% 0;
 		font-size: 4vw;
 		font-weight: 300;
+	}
+
+	.result {
+		display: flex;
+		justify-content: center;
+		align-self: center;
+		margin: 2% 0;
+		width: 65%;
 	}
 
 	footer {
