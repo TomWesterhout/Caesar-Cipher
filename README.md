@@ -1,7 +1,7 @@
 # Caesar-Cipher
 The Odin Project - Ruby on Rails - Sinatra - Sinatra Project - Caesar Cipher
 
-http://pure-earth-11899.herokuapp.com/
+http://thawing-headland-68994.herokuapp.com/
 
 A Sinatra project aimed at setting up a web application of an earlier Ruby project: http://www.theodinproject.com/courses/ruby-programming/lessons/building-blocks
 
